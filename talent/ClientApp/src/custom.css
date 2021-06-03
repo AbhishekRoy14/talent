@@ -1,0 +1,63 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.ui.modal{
+  width: 600px;
+  height: 600px; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.header{
+  height: 40px;
+  padding-top: 2%;
+  font-size:x-large;
+}
+
+.ui.small.modal>.header:not(.ui) {
+  font-size: 2em;
+}
+
+.ui.form {
+  font-size: 1rem;
+  padding: 20px 10px;
+}
+
+.ui.header:last-child {
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.ui.ui.modal>.header {
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer{
+  background-color: rgb(7, 7, 7);
+  color: white;
+  position:fixed;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+#grid-padding {
+  padding-bottom: 100px;
+}
